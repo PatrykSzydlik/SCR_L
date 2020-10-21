@@ -1,8 +1,9 @@
 #!/bin/bash
 DATA=`date | cut -d ' ' -f 1`
 echo $DATA
-if [ DATA==Wed ]; then
-    echo "Working day"
+if [ $DATA == Sat ] || [ $DATA == Sun ] 
+then
+    echo "It's Weekend!"
 else
-    echo "Not working day"
+    echo "Another working day"
 fi
