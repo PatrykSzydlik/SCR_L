@@ -1,4 +1,5 @@
 #!/bin/bash
+export LC_ALL=C
 DATA=`date | cut -d ' ' -f 1`
 echo $DATA
 if [ $DATA == Sat ] || [ $DATA == Sun ] 

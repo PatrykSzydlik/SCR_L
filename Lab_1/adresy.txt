@@ -1,0 +1,8 @@
+a@poczta.pl
+b@poczta.pl
+c@poczta.pl
+d@poczta.pl
+aa@poczta.pl
+ab@poczta.pl
+ac@poczta.pl
+ad@poczta.pl
